@@ -45,4 +45,4 @@ class SpinitronWidget {
     }
 }
 
-export default SpinitronWidget;
+module.exports = SpinitronWidget;
