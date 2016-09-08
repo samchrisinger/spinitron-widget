@@ -2,7 +2,7 @@ class SpinitronWidget {
     constructor(
         elementId,
         station,
-        numTracks,
+        numTracks=5,
         reloadInterval=5,
         showTwitterLinks=false,
         showTimestamps=false,
@@ -44,5 +44,3 @@ class SpinitronWidget {
         document.getElementsByTagName('head')[0].appendChild(this.script);
     }
 }
-
-module.exports = SpinitronWidget;
